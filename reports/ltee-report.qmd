@@ -70,3 +70,19 @@ Each file has `{python} f"{reads['reads'].min():,}"` reads, so each sample has
 `{python} f"{reads['mean_length'].mean():.0f}"` bases because the reads were
 trimmed before subsampling. @fig-quality shows that base quality stays high
 along the reads.
+
+
+```{python}
+#| label: fig-quality
+#| fig-cap: "Mean base quality (Phred score) at each position along the reads, for the first reads of each FASTQ file (parameter `max_reads`)."
+fig, ax = plt.subplots(figsize=(7, 4))
+for f in sorted(fastq_files):
+    q = quality_by_position(f, max_reads)
+    ax.plot(q.index, q.values, label=q.name)
+ax.axhline(30, color="grey", linestyle="--", linewidth=1)
+ax.set_xlabel("Position in read")
+ax.set_ylabel("Mean Phred quality")
+ax.set_ylim(bottom=0)
+ax.legend(fontsize="small")
+plt.show()
+```

@@ -1,13 +1,31 @@
 cff-version: 1.2.0
 message: "If you use this work, please cite it as below."
-title: "ltee-project"
-abstract: "A reproducible analysis"
+title: "LTEE variant calling"
+abstract: "Variant calling on three E. coli clones from the Long-Term Evolution Experiment, with a sensitivity analysis of the variant filter."
 type: software
 authors:
-  - given-names: "project for LTEE variant callingjawaher"
-    family-names: "basalma"
-    email: "jawaherbasalma@gmail.com"
-repository-code: "https://github.com/jawaherbasalma/ltee-project"
+  - given-names: “jawaher”
+    family-names: “Basalma”
+    email: “jawaherbasalma”@gmail.com
+    orcid: "https://orcid.org/0000-0002-1825-0097"
+repository-code: "https://orcid.org/0009-0000-4159-2813"
 license: MIT
 version: 0.1.0
-date-released: "2026-10-26"
+date-released: "2026-11-23”
+keywords:
+  - reproducibility
+  - variant calling
+  - Long-Term Evolution Experiment
+references:
+  - type: article
+    title: "Tempo and mode of genome evolution in a 50,000-generation experiment"
+    authors:
+      - family-names: “Basalma
+        given-names: “Jawaher”
+      - name: "et al."
+    journal: "Nature"
+    volume: 536
+    start: 165
+    end: 170
+    year: 2016
+    doi: "10.1038/nature18959"
