@@ -4,14 +4,14 @@ title: "LTEE variant calling"
 abstract: "Variant calling on three E. coli clones from the Long-Term Evolution Experiment, with a sensitivity analysis of the variant filter."
 type: software
 authors:
-  - given-names: “jawaher”
-    family-names: “Basalma”
-    email: “jawaherbasalma”@gmail.com
-    orcid: "https://orcid.org/0000-0002-1825-0097"
-repository-code: "https://orcid.org/0009-0000-4159-2813"
+  - given-names: "Jawaher"
+    family-names: "Basalma"
+    email: "jawaherbasalma@gmail.com"
+    orcid: "https://orcid.org/0009-0000-4159-2813"
+repository-code: "https://github.com/jawaherbasalma/ltee-project"
 license: MIT
 version: 0.1.0
-date-released: "2026-11-23”
+date-released: "2026-11-23"
 keywords:
   - reproducibility
   - variant calling
@@ -20,8 +20,8 @@ references:
   - type: article
     title: "Tempo and mode of genome evolution in a 50,000-generation experiment"
     authors:
-      - family-names: “Basalma
-        given-names: “Jawaher”
+      - family-names: "Tenaillon"
+        given-names: "Olivier"
       - name: "et al."
     journal: "Nature"
     volume: 536
